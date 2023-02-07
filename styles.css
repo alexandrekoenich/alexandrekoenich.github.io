@@ -1,0 +1,63 @@
+.foto-perfil{
+    height: 100%;
+    width: 30%;
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.corPrimaria {
+    background-image: linear-gradient(rgb(71, 71, 71), rgb(5, 79, 139));
+    color: white;
+}
+.corSecondaria{
+    background-color: aquamarine;
+}
+p{
+    font-family:Lato, 'Henvetica Neue', Helvetica, Arial, sans-serif;
+    color: black !important;
+}
+
+.titulosBrancos{
+    text-decoration: underline;
+    text-underline-position: below;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+}
+.titulosVerdes{
+    text-decoration: underline;
+    text-underline-position: below;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: aquamarine;
+}
+
+.icons{
+    padding-left: 5px;
+}
+
+.footer{
+    background-color: rgb(37, 37, 37);
+    color: white;
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+
+.letters{
+    color: white !important;
+}
+.background{
+    background-color:red;
+}
+.jumbotron{
+    margin-bottom: 0px;
+}
+.about{
+    background-color: rgb(37, 37, 37);
+    color: white !important;    
+}
+html{
+    scroll-behavior: smooth;
+}
