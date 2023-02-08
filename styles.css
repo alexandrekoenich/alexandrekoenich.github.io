@@ -61,3 +61,10 @@ p{
 html{
     scroll-behavior: smooth;
 }
+
+ul{
+    
+        font-family:Lato, 'Henvetica Neue', Helvetica, Arial, sans-serif;
+        color: black !important;
+    
+}
