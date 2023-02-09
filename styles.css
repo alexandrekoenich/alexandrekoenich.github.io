@@ -40,5 +40,64 @@ p{
 html{
     scroll-behavior: smooth;
 }
+.content-main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 
+.content-main {
+	z-index: 1;
+	background: linear-gradient(-45deg, rgb(0, 250, 112), rgb(17, 17, 17), rgb(17, 17, 17), rgb(1, 135, 212));
+	background-size: 400% 400%;
+	width: 100%;
+	height: 60vh;
+	animation: animate 10s ease infinite;
+}
+.content-main h1 {
+	height: 50px;
+	display: flex;
+	justify-content: center;
+}
+.content-about-me h3 p {
+	display: inline-block;
+	padding: 40px 15px;
+}
+.header ul li a {
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 20px;
+	padding: 5px 10px;
+}
+.header ul li a:hover {
+	background: #fff;
+	color: #000;
+}
+.header h2 {
+	text-align: center;
+	color: #fff;
+	font-size: 60px;
+	margin-top: 15%;
+	margin-bottom: 20px;
+}
+.header p {
+	text-align: center;
+	font-size: 18px;
+	width: 35%;
+	margin: auto;
+	color: #ddd;
+	line-height: 1.7;
+}
+@keyframes animate {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
 
